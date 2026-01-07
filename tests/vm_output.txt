@@ -1,0 +1,13 @@
+memory simulator has run, input commands (init/malloc/set/free/exit/dump/stats)
+> > > > > > > > page hits: 2
+page faults: 5
+L1 hits: 0
+L1 misses: 7
+L1 hit ratio: 0%
+L2 hits: 2
+L2 misses: 5
+L2 hit ratio: 28.5714%
+memory not initialized!
+
+> exited
+
