@@ -108,15 +108,14 @@ int main(){
             vM.access(addr);
         }
         else if (command == "stats") {
+            vM.print_stats();
+            L1.print_stats();
+            L2.print_stats();
             if (memo == nullptr) {
                 cout << "memory not initialized!\n\n";
                 continue;
             }
-
             memo->print_stats();
-            vM.print_stats();
-            L1.print_stats();
-            L2.print_stats();
         }
         else {
             cout << "unknown command!\n\n";
