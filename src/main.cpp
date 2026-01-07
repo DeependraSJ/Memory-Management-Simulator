@@ -23,9 +23,9 @@ int main(){
     
     cout << "memory simulator has run, input commands (init/malloc/set/free/exit/dump/stats)\n";
 
-    cache_level L1("L1", 128, 32, 2);
-    cache_level L2("L2", 512, 64, 8);
-    virtual_memory_manager vM(4196, 2048, 512);
+    cache_level L1("L1", 1024, 32, 2); 
+    cache_level L2("L2", 4096, 64, 8); 
+    virtual_memory_manager vM(65536, 16384, 512); 
     vM.attach_caches(&L1, &L2);
 
     while (true) {
