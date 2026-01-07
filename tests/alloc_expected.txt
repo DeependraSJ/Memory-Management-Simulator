@@ -1,0 +1,6 @@
+
+Three blocks allocated: 200, 500, 128 bytes
+used memory = 628 units
+free memory = 396 bytes
+allocation success = 3
+allocation failure = 0
